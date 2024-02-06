@@ -6,7 +6,7 @@
   components:
     - type: Stamp
       stampedName: stamp-component-stamped-name-iaa
-      stampedColor: "#33CC33"
+      stampedColor: "#59473e"
       stampState: "paper_stamp-ok"
     - type: Sprite
       sprite: Corvax/Objects/Misc/stamps.rsi
