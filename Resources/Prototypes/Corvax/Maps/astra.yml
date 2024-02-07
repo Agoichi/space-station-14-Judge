@@ -63,6 +63,8 @@
             Quartermaster: [ 1, 1 ]
             SalvageSpecialist: [ 3, 3 ]
             CargoTechnician: [ 4, 5 ]
+            # Law
+            Lawyer: [ 2, 2 ]
 
 
 

@@ -6,3 +6,4 @@ department-Medical-description = Keep the crew healthy.
 department-Security-description = Keep the peace around the station.
 department-Science-description = Research artifacts and anomalies to invent new equipment for the station
 department-Specific-description = Jobs that not all stations have.
+department-Legal-description = Ensure that negotiations are legal and that Standard Operating Procedures are followed

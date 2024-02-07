@@ -22,7 +22,6 @@
   - Clown
   - HeadOfPersonnel
   - Janitor
-  - Lawyer
   - Librarian
   - Mime
   - Musician
@@ -91,6 +90,14 @@
   - ResearchDirector
   - Scientist
   - ResearchAssistant
+
+- type: department
+  id: Legal
+  description: department-Law-description
+  color: "#33CC33"
+  roles:
+  - IAA # Corvax-IAA
+  - Lawyer
 
 - type: department
   id: Specific
