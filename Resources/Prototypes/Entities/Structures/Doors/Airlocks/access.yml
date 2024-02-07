@@ -8,7 +8,7 @@
     access: [["Service"]]
 
 - type: entity
-  parent: Airlock
+  parent: AirlockLegal
   id: AirlockLawyerLocked
   suffix: Lawyer, Locked
   components:
