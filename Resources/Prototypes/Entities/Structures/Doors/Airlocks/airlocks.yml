@@ -91,6 +91,16 @@
 
 - type: entity
   parent: Airlock
+  id: AirlockLegal
+  suffix: Legal
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/legal.rsi
+  - type: PaintableAirlock
+    department: Legal
+
+- type: entity
+  parent: Airlock
   id: AirlockMaint
   name: maintenance access
   components:
@@ -272,6 +282,16 @@
     department: Security
 
 - type: entity
+  parent: AirlockGlass
+  id: AirlockLegalGlass
+  suffix: Legal
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/legal.rsi
+  - type: PaintableAirlock
+    department: Legal
+
+- type: entity
   parent: AirlockSecurityGlass # see standard
   id: AirlockSyndicateGlass
   suffix: Syndicate
@@ -296,3 +316,5 @@
     sprite: Structures/Doors/Airlocks/Glass/centcomm.rsi
   - type: WiresPanelSecurity
     securityLevel: medSecurity
+
+
